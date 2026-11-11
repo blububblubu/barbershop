@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" fill="none">
+  <defs>
+    <pattern id="barberpole" width="24" height="24" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="8" height="24" fill="#E63946"/>
+      <rect x="8" width="4" height="24" fill="#FFFFFF"/>
+      <rect x="12" width="8" height="24" fill="#1D3557"/>
+      <rect x="20" width="4" height="24" fill="#FFFFFF"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="920" fill="#FFFFFF"/>
+  <rect x="44" y="44" width="712" height="832" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <line x1="44" y1="684" x2="756" y2="684" stroke="#111111" stroke-width="2"/>
+
+  <!-- Classic Barber Pole Left & Right -->
+  <g>
+    <rect x="100" y="190" width="32" height="190" rx="16" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+    <rect x="103" y="218" width="26" height="134" fill="url(#barberpole)"/>
+    <circle cx="116" cy="184" r="13" fill="#111111"/>
+    <rect x="97" y="206" width="38" height="10" fill="#111111"/>
+    <rect x="97" y="354" width="38" height="10" fill="#111111"/>
+    <circle cx="116" cy="386" r="9" fill="#111111"/>
+  </g>
+
+  <g>
+    <rect x="668" y="190" width="32" height="190" rx="16" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+    <rect x="671" y="218" width="26" height="134" fill="url(#barberpole)"/>
+    <circle cx="684" cy="184" r="13" fill="#111111"/>
+    <rect x="665" y="206" width="38" height="10" fill="#111111"/>
+    <rect x="665" y="354" width="38" height="10" fill="#111111"/>
+    <circle cx="684" cy="386" r="9" fill="#111111"/>
+  </g>
+
+  <!-- Crisp Mirror Frame -->
+  <rect x="210" y="108" width="380" height="452" fill="#F8FAFC" stroke="#111111" stroke-width="5"/>
+  <rect x="224" y="122" width="352" height="424" fill="none" stroke="#1D3557" stroke-width="2"/>
+
+  <path d="M265 205L345 135" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square" opacity="0.9"/>
+  <path d="M255 245L378 135" stroke="#FFFFFF" stroke-width="5" stroke-linecap="square" opacity="0.7"/>
+
+  <!-- Bold Classic Emblem -->
+  <circle cx="400" cy="255" r="44" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <path d="M385 243L415 267M415 243L385 267" stroke="#E63946" stroke-width="3.5" stroke-linecap="square"/>
+  <circle cx="383" cy="241" r="5.5" stroke="#111111" stroke-width="2.5"/>
+  <circle cx="383" cy="269" r="5.5" stroke="#111111" stroke-width="2.5"/>
+
+  <text x="400" y="346" text-anchor="middle" fill="#111111" font-family="Arial Narrow, Impact, sans-serif" font-size="36" font-weight="800" letter-spacing="8">SETARA</text>
+  <text x="400" y="376" text-anchor="middle" fill="#1D3557" font-family="system-ui, sans-serif" font-size="13" font-weight="800" letter-spacing="5">BARBERSHOP</text>
+  <rect x="336" y="392" width="128" height="4" fill="#E63946"/>
+
+  <!-- Shelf -->
+  <rect x="170" y="560" width="460" height="22" fill="#111111"/>
+  <rect x="170" y="555" width="460" height="5" fill="#E63946"/>
+
+  <rect x="218" y="504" width="28" height="51" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+  <rect x="225" y="492" width="14" height="12" fill="#E63946"/>
+  <rect x="256" y="516" width="24" height="39" fill="#1D3557"/>
+  <rect x="262" y="508" width="12" height="8" fill="#111111"/>
+  <rect x="526" y="512" width="38" height="43" fill="#FFFFFF" stroke="#111111" stroke-width="2.5"/>
+
+  <!-- Classic Barber Chair -->
+  <rect x="332" y="618" width="136" height="96" fill="#111111"/>
+  <rect x="346" y="630" width="108" height="72" fill="#1D3557" stroke="#FFFFFF" stroke-width="1.5"/>
+  <rect x="314" y="688" width="172" height="24" fill="#111111"/>
+  <rect x="312" y="672" width="22" height="54" fill="#E63946"/>
+  <rect x="466" y="672" width="22" height="54" fill="#E63946"/>
+  <rect x="388" y="712" width="24" height="78" fill="#111111"/>
+  <rect x="330" y="786" width="140" height="14" fill="#111111"/>
+  <rect x="352" y="742" width="96" height="10" fill="#E63946"/>
+
+  <text x="400" y="840" text-anchor="middle" fill="#111111" font-family="system-ui, sans-serif" font-size="12" font-weight="800" letter-spacing="4">CLASSIC BARBERSHOP • TANGGUL</text>
+</svg>

@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary-red: #e63946;
+  --color-secondary-blue: #1d3557;
+  --color-dark: #111111;
+  --color-light: #ffffff;
+
+  --font-heading: var(--font-oswald), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+  --font-accent: var(--font-playfair), Georgia, serif;
+}
+
+@theme {
+  --color-primary-red: #e63946;
+  --color-secondary-blue: #1d3557;
+  --color-dark: #111111;
+  --color-light: #ffffff;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-oswald), ui-sans-serif, system-ui, sans-serif;
+  --font-serif-accent: var(--font-playfair), Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-heading);
+}
+
+.font-accent {
+  font-family: var(--font-accent);
+}
+
+/* Garis diagonal merah & biru untuk aksen footer */
+.barber-pole-accent {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #e63946 0px,
+    #e63946 16px,
+    #ffffff 16px,
+    #ffffff 24px,
+    #1d3557 24px,
+    #1d3557 40px,
+    #ffffff 40px,
+    #ffffff 48px
+  );
+}
+
+/* Watermark garis diagonal tipis untuk section profil/about */
+.barber-pole-watermark {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(230, 57, 70, 0.035) 0px,
+    rgba(230, 57, 70, 0.035) 18px,
+    rgba(255, 255, 255, 0) 18px,
+    rgba(255, 255, 255, 0) 34px,
+    rgba(29, 53, 87, 0.04) 34px,
+    rgba(29, 53, 87, 0.04) 52px,
+    rgba(255, 255, 255, 0) 52px,
+    rgba(255, 255, 255, 0) 68px
+  );
+}
+
+/* Divider tebal hitam dengan potongan miring di ujungnya */
+.divider-slant {
+  height: 4px;
+  width: 72px;
+  background-color: #111111;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+}
